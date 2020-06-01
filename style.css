@@ -1,0 +1,73 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #232323;
+	margin: 0;
+}
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+.square {
+	width: 30%;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	background-color: purple;
+	float: left;
+	border-radius: 15%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-o-transition: background 0.5s;
+	-ms-transition: background 0.5s;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding: 20px 0;
+}
+#colorDisplay {
+	text-transform: uppercase;
+	font-size: 200%;
+}
+
+#stripe {
+	background-color: #fff;
+	height: 30px;
+	text-align: center;
+	color: #000;
+}
+.selected{
+	color: #fff;
+	background-color: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover {
+	color: #fff;
+	background-color: steelblue;
+}
